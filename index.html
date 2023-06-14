@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="titre">S-QUEST</h1>
+    <section class="container">
+        <div class="container_all table_all">
+            <h2>CHOISISSEZ UN CHIFFRE</h2>
+            <div class="tab_container">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>4</td>
+                            <td>5</td>
+                            <td>6</td>
+                            <td>7</td>
+                            <td>8</td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>10</td>
+                            <td>11</td>
+                            <td>12</td>
+                            <td>13</td>
+                            <td>14</td>
+                            <td>15</td>
+                            <td>16</td>
+                        </tr>
+                        <tr>
+                            <td>17</td>
+                            <td>18</td>
+                            <td>19</td>
+                            <td>20</td>
+                            <td>21</td>
+                            <td>22</td>
+                            <td>23</td>
+                            <td>24</td>
+                        </tr>
+                        <tr>
+                            <td>25</td>
+                            <td>26</td>
+                            <td>27</td>
+                            <td>28</td>
+                            <td>29</td>
+                            <td>30</td>
+                            <td>31</td>
+                            <td>32</td>
+                        </tr>
+                        <tr>
+                            <td>33</td>
+                            <td>34</td>
+                            <td>35</td>
+                            <td>36</td>
+                            <td>37</td>
+                            <td>38</td>
+                            <td>39</td>
+                            <td>40</td>
+                        </tr>
+                        <tr>
+                            <td>41</td>
+                            <td>42</td>
+                            <td>43</td>
+                            <td>44</td>
+                            <td>45</td>
+                            <td>46</td>
+                            <td>47</td>
+                            <td>48</td>
+                        </tr>
+                        <tr>
+                            <td>49</td>
+                            <td>50</td>
+                            <td>51</td>
+                            <td>52</td>
+                            <td>53</td>
+                            <td>54</td>
+                            <td>55</td>
+                            <td>56</td>
+                        </tr>
+                        <tr>
+                            <td>57</td>
+                            <td>58</td>
+                            <td>59</td>
+                            <td>60</td>
+                            <td>61</td>
+                            <td>62</td>
+                            <td>63</td>
+                            <td>64</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="debut">
+                <button class="demarage">START</button>
+                <button class="tuto">TUTORIEL</button>
+            </div>
+        </div>
+
+        <div class="container_all table_A">
+            <div class="tab_container">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>4</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>10</td>
+                            <td>11</td>
+                            <td>12</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>17</td>
+                            <td>18</td>
+                            <td>19</td>
+                            <td>20</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>25</td>
+                            <td>26</td>
+                            <td>27</td>
+                            <td>28</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>33</td>
+                            <td>34</td>
+                            <td>35</td>
+                            <td>36</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>41</td>
+                            <td>42</td>
+                            <td>43</td>
+                            <td>44</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>49</td>
+                            <td>50</td>
+                            <td>51</td>
+                            <td>52</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>57</td>
+                            <td>58</td>
+                            <td>59</td>
+                            <td>60</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="btn_all">
+                <h4>Votre chiffre ce trouve t-il ici</h4>
+                <div class="btn btn_A">
+                    <button class="yes" id="btn1-yes">OUI</button>
+                    <button class="no" id="btn1-no">NON</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container_all table_B">
+            <div class="tab_container">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>4</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>10</td>
+                            <td>11</td>
+                            <td>12</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>17</td>
+                            <td>18</td>
+                            <td>19</td>
+                            <td>20</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>25</td>
+                            <td>26</td>
+                            <td>27</td>
+                            <td>28</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>37</td>
+                            <td>38</td>
+                            <td>39</td>
+                            <td>40</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>45</td>
+                            <td>46</td>
+                            <td>47</td>
+                            <td>48</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>53</td>
+                            <td>54</td>
+                            <td>55</td>
+                            <td>56</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>61</td>
+                            <td>62</td>
+                            <td>63</td>
+                            <td>64</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="btn_all">
+                <h4>Votre chiffre ce trouve t-il ici</h4>
+                <div class="btn btn_B">
+                    <button class="yes" id="btn2-yes">OUI</button>
+                    <button class="no" id="btn2-no">NON</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container_all table_C">
+            <div class="tab_container">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>4</td>
+                            <td>5</td>
+                            <td>6</td>
+                            <td>7</td>
+                            <td>8</td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>10</td>
+                            <td>11</td>
+                            <td>12</td>
+                            <td>13</td>
+                            <td>14</td>
+                            <td>15</td>
+                            <td>16</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>33</td>
+                            <td>34</td>
+                            <td>35</td>
+                            <td>36</td>
+                            <td>37</td>
+                            <td>38</td>
+                            <td>39</td>
+                            <td>40</td>
+                        </tr>
+                        <tr>
+                            <td>41</td>
+                            <td>42</td>
+                            <td>43</td>
+                            <td>44</td>
+                            <td>45</td>
+                            <td>46</td>
+                            <td>47</td>
+                            <td>48</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="btn_all">
+                <h4>Votre chiffre ce trouve t-il ici</h4>
+                <div class="btn btn_C">
+                    <button class="yes" id="btn3-yes">OUI</button>
+                    <button class="no" id="btn3-no">NON</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container_all table_D">
+            <div class="tab_container">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>2</td>
+                            <td></td>
+                            <td></td>
+                            <td>5</td>
+                            <td>6</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>10</td>
+                            <td></td>
+                            <td></td>
+                            <td>13</td>
+                            <td>14</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>17</td>
+                            <td>18</td>
+                            <td></td>
+                            <td></td>
+                            <td>21</td>
+                            <td>22</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>25</td>
+                            <td>26</td>
+                            <td></td>
+                            <td></td>
+                            <td>29</td>
+                            <td>30</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>33</td>
+                            <td>34</td>
+                            <td></td>
+                            <td></td>
+                            <td>37</td>
+                            <td>38</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>41</td>
+                            <td>42</td>
+                            <td></td>
+                            <td></td>
+                            <td>45</td>
+                            <td>46</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>49</td>
+                            <td>50</td>
+                            <td></td>
+                            <td></td>
+                            <td>53</td>
+                            <td>54</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>57</td>
+                            <td>58</td>
+                            <td></td>
+                            <td></td>
+                            <td>61</td>
+                            <td>62</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="btn_all">
+                <h4>Votre chiffre ce trouve t-il ici</h4>
+                <div class="btn btn_D">
+                    <button class="yes" id="btn4-yes">OUI</button>
+                    <button class="no" id="btn4-no">NON</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container_all table_E">
+            <div class="tab_container">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td></td>
+                            <td>3</td>
+                            <td></td>
+                            <td>5</td>
+                            <td></td>
+                            <td>7</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td></td>
+                            <td>11</td>
+                            <td></td>
+                            <td>13</td>
+                            <td></td>
+                            <td>15</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>17</td>
+                            <td></td>
+                            <td>19</td>
+                            <td></td>
+                            <td>21</td>
+                            <td></td>
+                            <td>23</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>25</td>
+                            <td></td>
+                            <td>27</td>
+                            <td></td>
+                            <td>29</td>
+                            <td></td>
+                            <td>31</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>33</td>
+                            <td></td>
+                            <td>35</td>
+                            <td></td>
+                            <td>37</td>
+                            <td></td>
+                            <td>39</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>41</td>
+                            <td></td>
+                            <td>43</td>
+                            <td></td>
+                            <td>45</td>
+                            <td></td>
+                            <td>47</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>49</td>
+                            <td></td>
+                            <td>51</td>
+                            <td></td>
+                            <td>53</td>
+                            <td></td>
+                            <td>55</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>57</td>
+                            <td></td>
+                            <td>59</td>
+                            <td></td>
+                            <td>61</td>
+                            <td></td>
+                            <td>63</td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="btn_all">
+                <h4>Votre chiffre ce trouve t-il ici</h4>
+                <div class="btn btn_E">
+                    <button class="yes" id="btn5-yes">OUI</button>
+                    <button class="no" id="btn5-no">NON</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container_all table_F">
+            <div class="tab_container">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>4</td>
+                            <td>5</td>
+                            <td>6</td>
+                            <td>7</td>
+                            <td>8</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>17</td>
+                            <td>18</td>
+                            <td>19</td>
+                            <td>20</td>
+                            <td>21</td>
+                            <td>22</td>
+                            <td>23</td>
+                            <td>24</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>33</td>
+                            <td>34</td>
+                            <td>35</td>
+                            <td>36</td>
+                            <td>37</td>
+                            <td>38</td>
+                            <td>39</td>
+                            <td>40</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>49</td>
+                            <td>50</td>
+                            <td>51</td>
+                            <td>52</td>
+                            <td>53</td>
+                            <td>54</td>
+                            <td>55</td>
+                            <td>56</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="btn_all">
+                <h4>Votre chiffre ce trouve t-il ici</h4>
+                <div class="btn btn_F">
+                    <button class="yes" id="btn6-yes">OUI</button>
+                    <button class="no" id="btn6-no">NON</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="resultat container_all">
+            <p>Félicitations ! Voici le nombre que l'ordinateur a deviné avec précision : <span id="result"></span></p>
+            <p>Vous avez été déjoué par l'intelligence artificielle !</p>
+            <button class="restart">RESTART</button>
+        </div>
+
+        <div class="tutoriel">
+            <h1>Tutoriel pour le jeu de devinette de nombre</h1>
+    
+            <h2>Introduction :</h2>
+            <p>Dans ce tutoriel, vous allez apprendre comment utiliser un programme pour jouer à un jeu de devinette de nombre. Le but du jeu est de choisir un nombre entre 1 et 64, puis de permettre à l'ordinateur de le deviner en utilisant une série de tableaux.</p>
+            
+            <h2>Étape 1 : Choix d'un nombre</h2>
+            <p>Au démarrage du programme, vous serez invité à choisir un nombre entre 1 et 64. Assurez-vous de choisir un nombre et de le retenir.</p>
+            
+            <h2>Étape 2 : Devinez le nombre</h2>
+            <ol>
+              <li>L'ordinateur utilisera une série de tableaux pour deviner le nombre que vous avez choisi.</li>
+              <li>Chaque tableau représente un sous-ensemble des chiffres possibles.</li>
+              <li>L'ordinateur vous demandera si le nombre que vous avez choisi se trouve dans chaque sous-ensemble.</li>
+              <li>Répondez par "oui" si le nombre est présent dans le sous-ensemble, ou par "non" sinon.</li>
+            </ol>
+            <h2>Étape 3 : Suivez les instructions de l'ordinateur</h2>
+            <ol>
+              <li>L'ordinateur utilisera vos réponses pour éliminer progressivement les chiffres non pertinents et affiner sa devinette.</li>
+              <li>Suivez les instructions de l'ordinateur en répondant correctement à chaque question.</li>
+            </ol>
+            
+            <h2>Étape 4 : Révélation du nombre choisi</h2>
+            <ol>
+              <li>Une fois que l'ordinateur a suffisamment d'informations, il fera une devinette finale sur le nombre que vous avez choisi.</li>
+              <li>L'ordinateur affichera sa devinette finale et vérifiera si elle est correcte.</li>
+              <li>Si l'ordinateur a deviné correctement votre nombre, le jeu est terminé. Sinon, vous pouvez réessayer et choisir un nouveau nombre.</li>
+            </ol>
+            <button class="close">CLOSE</button>
+        </div>
+
+        <div class="spinner_all container_all">
+            <div class="spinner"></div>
+        </div>
+    </section>
+        
+
+
+
+
+
+
+
+
+
+
+
+        
+
+    
+    
+        
+  
+    <script src="script.js"></script>
+</body>
+</html>
